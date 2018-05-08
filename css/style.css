@@ -1,6 +1,23 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  background-image: url(images/bloc-logo.png),
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-style: italic;
+  line-height: 1.2em;
+}
+
+figcaption {
+  line-height: .8em;
 }
 
 nav {
@@ -16,11 +33,14 @@ nav {
 }
 
 .large-pic {
+  background-image: url(./images/bloc-logo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
   width: 100%;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 100%;
 }
 
 .left, .right {
@@ -30,6 +50,10 @@ nav {
 
 .right {
   float: right;
+}
+
+.author {
+  font-weight: 600;
 }
 
 ul {
@@ -49,4 +73,16 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff; } /* mouse over */
+}
+
+p {
+  line-height: 1.2em;
 }
